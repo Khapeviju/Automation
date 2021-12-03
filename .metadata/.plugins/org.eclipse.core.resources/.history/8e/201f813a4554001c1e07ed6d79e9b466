@@ -1,0 +1,21 @@
+package stringclass;
+
+public class StringClasss1 {
+
+	public static void main(String[] args) {
+		
+		String name= "anand";
+		
+		//Function 1
+		System.out.println(name.length());
+		
+		//Function 2  char at location 2
+		System.out.println(name.charAt(2));
+		
+		//Function 2 
+		String name2="Anand";
+		
+		System.out.println(name.contentEquals(name2));
+	}
+
+}

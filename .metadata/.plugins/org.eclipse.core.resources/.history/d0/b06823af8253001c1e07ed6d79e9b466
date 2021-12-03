@@ -1,0 +1,28 @@
+package arrays;
+
+import oops.inheritance.Mobile;
+import oops.inheritance.Telephone;
+
+public class Assignment1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Primitive data types: Predefined in java byte,short, int, Long, Char, Float, double and boolean
+		//Non Primitive data types: arrays, class, interface etc.
+		
+		//10
+		
+		// True
+		
+		//Anand
+		
+		//store in parent class of integer
+		
+		int a =   10;
+        String name ="anand";
+		Telephone m= new Mobile();
+		
+	}
+
+}

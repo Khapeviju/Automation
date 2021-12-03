@@ -1,0 +1,21 @@
+package collections;
+
+import java.util.ArrayList;
+
+public class Testing {
+
+	public static void main(String[] args) {
+		
+		//Ashish - String
+		
+		//Ashish, Danish, Rohit - String Array
+
+		String[]arr =new String[12];
+		
+		//Rohit, Rohit
+		
+		List<String> list =new  new ArrayList<>();
+		
+	}
+
+}

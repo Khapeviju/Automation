@@ -1,0 +1,18 @@
+package oops.abstraction;
+
+public class Sprint2 extends Sprint1{
+
+	@Override
+	public void table() {
+		System.out.println("Table Feature");
+	}
+
+	
+	public void share() {
+		System.out.println("Share feature");
+	}
+
+	
+	
+
+}

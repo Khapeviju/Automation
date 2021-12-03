@@ -1,0 +1,26 @@
+package constructor;
+
+public class User {
+	public static void main(String[] args) {
+
+	
+		
+		
+		Car kia=new Car();
+		kia.color="silver";
+		kia.model="Seltos";
+		kia.engine=1200;
+		kia.wheels=4;
+		
+		
+		kia.features();
+		
+		
+	}
+	
+	
+	
+	
+	
+
+}

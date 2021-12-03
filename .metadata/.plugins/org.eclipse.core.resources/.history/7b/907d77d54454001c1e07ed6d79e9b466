@@ -1,0 +1,15 @@
+package stringclass;
+
+public class StringClasss1 {
+
+	public static void main(String[] args) {
+		
+		String name= "anand";
+		
+		//Function 1
+		System.out.println(name.length());
+		
+		
+	}
+
+}

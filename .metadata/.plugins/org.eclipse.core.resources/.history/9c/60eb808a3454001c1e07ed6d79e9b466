@@ -1,0 +1,15 @@
+package collections;
+
+public class Testing {
+
+	public static void main(String[] args) {
+		
+		//Ashish - String
+		
+		//Ashish, Danish, Rohit - String Array
+
+		String[]arr =new String[12];
+		
+	}
+
+}

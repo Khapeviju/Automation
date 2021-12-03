@@ -1,0 +1,19 @@
+package oops.abstraction;
+
+public class BankUser {
+
+	public static void main(String[] args) {
+		
+		RBI bank1 = new HDFC();
+		
+		bank1.creditcard();     //get
+		bank1.savingaccount();  //Send keys
+		bank1.debitcard();      //click
+		bank1.currentaccount(); //close
+		
+		
+		
+
+	}
+
+}

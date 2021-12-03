@@ -1,0 +1,30 @@
+package oops.abstraction;
+
+public class Kotak implements RBI {
+
+	@Override
+	public void savingaccount() {
+		System.out.println("kotak - saving account");
+		
+	}
+
+	@Override
+	public void currentaccount() {
+		System.out.println("kotak - current account");
+		
+	}
+
+	@Override
+	public void creditcard() {
+		System.out.println("kotak - Credit Card");
+		
+	}
+
+	@Override
+	public void debitcard() {
+		System.out.println("kotak - Debit Card");
+		
+	}
+	
+
+}

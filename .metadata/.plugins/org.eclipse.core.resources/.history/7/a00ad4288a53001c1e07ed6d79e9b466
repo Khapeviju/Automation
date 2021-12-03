@@ -1,0 +1,27 @@
+package oops.abstraction;
+
+//1. You can't have concrete methods inside an Concrete class
+//2. 
+
+public class Sprint1 extends MSWord {
+
+	@Override
+	public void save() {
+		// TODO Auto-generated method stub
+		System.out.println("Save feature");
+		
+	}
+
+	@Override
+	public void insert() {
+		// TODO Auto-generated method stub
+		System.out.println("Insert feature");
+	}
+
+
+		
+	}
+
+	
+	
+}

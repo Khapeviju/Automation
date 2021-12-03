@@ -1,0 +1,48 @@
+package seleniumbasics;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ThirdScript {
+	public WebDriver driver;
+
+	void launchBrowser() {
+		// Launch Browser
+		WebElement element;
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Akki\\Videos\\drivers\\chromedriver.exe");
+		// WebDriver driver = new WebDriver();
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+
+		// Navigation Methods
+
+		// open URL
+		driver.navigate().to("https://en-gb.facebook.com/");
+
+		driver.navigate()
+				.to("https://www.google.com");
+		//Back window
+		driver.navigate().back();
+		
+		String titlename1 = driver.getTitle();
+		System.out.println(titlename1);
+		
+		driver.navigate().forward();
+		
+		String titlename2 = driver.getTitle();
+		System.out.println(titlename2);
+		
+		driver.navigate().refresh();
+
+		// Reload page
+	}
+
+	public static void main(String[] args) {
+
+		ThirdScript obj = new ThirdScript();
+		obj.launchBrowser();
+
+	}
+
+}

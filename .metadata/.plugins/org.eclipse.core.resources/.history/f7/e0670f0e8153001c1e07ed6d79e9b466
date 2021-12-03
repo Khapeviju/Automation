@@ -1,0 +1,17 @@
+package oops.polymorphism;
+
+import oops.inheritance.Mobile;;
+
+public class DynamicPolymrophism {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Mobile mobile = new Mobile();
+	
+		mobile.calling();
+		mobile.texting();
+		
+	}
+
+}

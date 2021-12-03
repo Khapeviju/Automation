@@ -1,0 +1,16 @@
+package constructor;
+
+public class user2 {
+	public static void main(String[] args) {
+		
+		
+		Car vw= new car("silver","polo", 1600);
+        vw.features();
+        
+        Car honda = new car("white","city",16000);
+        honda.features();
+        
+		
+	}
+
+}
