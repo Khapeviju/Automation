@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47281" started-at="2022-01-22T12:07:01 IST" finished-at="2022-01-22T12:07:48 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47281" started-at="2022-01-22T12:07:01 IST" finished-at="2022-01-22T12:07:48 IST">
+      <class name="testScripts.Home.TC_HomePage_Validation">
+        <test-method status="PASS" signature="oneTimeSetUp()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="oneTimeSetUp" is-config="true" duration-ms="837" started-at="2022-01-22T12:07:00 IST" finished-at="2022-01-22T12:07:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="setUp" is-config="true" duration-ms="3531" started-at="2022-01-22T12:07:01 IST" finished-at="2022-01-22T12:07:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigate()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="navigate" is-config="true" duration-ms="36388" started-at="2022-01-22T12:07:04 IST" finished-at="2022-01-22T12:07:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="testAutombileLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="testAutombileLink" duration-ms="3487" started-at="2022-01-22T12:07:41 IST" finished-at="2022-01-22T12:07:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutombileLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="afterMethod" is-config="true" duration-ms="2" started-at="2022-01-22T12:07:44 IST" finished-at="2022-01-22T12:07:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAutombileLink status=SUCCESS method=TC_HomePage_Validation.testAutombileLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="navigate()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="navigate" is-config="true" duration-ms="436" started-at="2022-01-22T12:07:44 IST" finished-at="2022-01-22T12:07:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="testCamperLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="testCamperLink" duration-ms="675" started-at="2022-01-22T12:07:45 IST" finished-at="2022-01-22T12:07:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCamperLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-22T12:07:45 IST" finished-at="2022-01-22T12:07:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCamperLink status=SUCCESS method=TC_HomePage_Validation.testCamperLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="navigate()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="navigate" is-config="true" duration-ms="425" started-at="2022-01-22T12:07:45 IST" finished-at="2022-01-22T12:07:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="testMotorCycleLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="testMotorCycleLink" duration-ms="846" started-at="2022-01-22T12:07:46 IST" finished-at="2022-01-22T12:07:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMotorCycleLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-01-22T12:07:46 IST" finished-at="2022-01-22T12:07:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMotorCycleLink status=SUCCESS method=TC_HomePage_Validation.testMotorCycleLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="navigate()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="navigate" is-config="true" duration-ms="441" started-at="2022-01-22T12:07:46 IST" finished-at="2022-01-22T12:07:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="testTruckLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="testTruckLink" duration-ms="857" started-at="2022-01-22T12:07:47 IST" finished-at="2022-01-22T12:07:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTruckLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-01-22T12:07:48 IST" finished-at="2022-01-22T12:07:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTruckLink status=SUCCESS method=TC_HomePage_Validation.testTruckLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="tearDown" is-config="true" duration-ms="132" started-at="2022-01-22T12:07:48 IST" finished-at="2022-01-22T12:07:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="oneTimeTearDown()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@480bdb19]" name="oneTimeTearDown" is-config="true" duration-ms="1" started-at="2022-01-22T12:07:48 IST" finished-at="2022-01-22T12:07:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+      </class> <!-- testScripts.Home.TC_HomePage_Validation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
